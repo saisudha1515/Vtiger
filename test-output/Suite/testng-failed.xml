@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test_Runner_Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNG.CreateContactTest_Scenario1_After_BaseClass_Creation_ForCrossBrowsing">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="amConfig"/>
+          <include name="csConfig"/>
+          <include name="acConfig"/>
+          <include name="createContactTest"/>
+          <include name="Demo5"/>
+          <include name="Demo6"/>
+        </methods>
+      </class> <!-- testNG.CreateContactTest_Scenario1_After_BaseClass_Creation_ForCrossBrowsing -->
+    </classes>
+  </test> <!-- Test_Runner_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
